@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+nav, header, footer {
+    display: block;
+}
+/*Container one*/
+.mydetail{
+   background-image: linear-gradient(orange,black);
+    width:100%;
+    height:750px;  
+    display:flex;
+    justify-content:center;
+    place-items:center;
+    color:white;
+ }
+ .hi{
+    font-size:25px;
+ }
+ .name{
+    font-size:30px;
+    font-weight:bold;
+ }
+ .mypic{
+    float:right;
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    margin-left:20px;
+ }
+ .button{
+    background-color:green;
+    height:42px;
+    width:150px;
+    display:flex;
+    justify-content:center;
+    place-items:center;
+    font-size:18px;
+    color:white;
+    opacity:0.7;
+ }
+ button:active{
+    background-color:red;
+    opacity:0.5;
+    cursor:pointer;
+ }
+ .web{
+    font-size:50px;
+    font-weight:bold;
+    text-shadow:10px 5px 10px red;
+ }
+ .detail{
+    font-size:18px;
+ }
+ .icon{
+    height:30px;
+    width:30px;
+    margin-top:20px;
+ }
+ .container-two{
+    display:flex;
+    background-image: url('https://assets.onecompiler.app/42vxpcykz/42wjnn3ej/IMG_20240915_063906_918.jpg');
+    background-repeat: no-repeat;
+    width:1200px;
+    height:800px; 
+    background-size:100% 100%;  
+ }
+ .my-detail{
+    text-align:justify;
+   background-image: linear-gradient(orange,black);
+    opacity:0.9;
+    width:200px;
+    font-size:25px;
+    padding:20px;
+ }
+body {
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1;
+    margin: 0;
+}
+.container.large{
+    width: 100%; 
+}
+h1{
+    font-size: 30px;
+ 
+    color: white;
+   text-align: block;
+        font-family: "Alike Angular", serif;
+        font-weight: 400;
+        font-style: normal;  
+}
+   .col-6,h2, input[type="text"],input[type="password"],input[type="email"]{
+     margin-bottom: 3px;
+     margin-left: 10%;
+     font-size: 20px;
+     font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width:70%;
+   }
+.row{
+   padding-top: 10%;
+}
+ .row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.videoContainer iframe{
+  float:right;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+.container-one{
+    font-family: "Roboto", serif;
+    width:100%;
+    height:750px;
+}
+div.leftside-col{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+div.rightside-col{
+    margin-left: 15%;
+}
+h1.large{
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1em;
+    margin-top: 10%;
+    padding: 5px;
+}
+input[type="text"],input[type="password"],input[type="email"]h1.large{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    border-color: #fff;
+}
+nav {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    margin-top: 0;
+}
+nav ul {
+    background-color: #eee;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+ul.topnav li {
+    list-style: none;
+    float: left;
+    font-family: "Unna", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+ul.topnav li.topnav-right {
+    float: right;
+}
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+ul.topnav li a:hover {
+    background-color: #0000ff;
+    color: #fff;
+}
+ul.topnav li.dropdownIcon{
+    display: none;
+}
+.container-six{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(orange,black);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ }
+ .c-background{
+    height:650px;
+    width:60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color:#e9c890;
+    border-radius:50px;
+ }
+ .con-tact{
+    font-size:50px;
+    font-weight:bold;
+    letter-spacing:10px;
+    border-bottom:1px solid gray;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ .form{
+    padding-left:150px;  
+    padding-top:20px;
+ }
+ .to-center{
+   display:block;
+ }
+ .group{
+   display:flex;
+   justify-content: center;
+ }
+ form h2{
+   color:white;
+ }
+ #grad{
+   background-image: linear-gradient(orange,black);
+ }
+
+@media screen and (max-width: 680px){
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive{
+        position: relative;
+    }
+    ul.topnav.responsive li{
+        display: block;
+        float: none;
+    }
+    ul.topnav.responsive li a{
+        text-align: left;
+    }
+    ul.topnav.responsive li.dropdownIcon{
+        position: relative;
+        top: 0;
+        right: 0
+    }
+    ul.topnav.responsive li.dropdownIcon{
+        float: right;
+        position: absolute;
+    }
+    .col-6,h1,.form h2{
+     font-size: 14px;  
+     color: white;
+    }
+    .col-6 h2{
+      margin-bottom: 3px;
+      
+    }
+    .row{
+    display:block;
+    }
+    input[type="text"],input[type="password"],input[type="email"]{
+        font-size: 12px;
+        width: 350px;
+    }
+    .container{
+        position: fixed;
+        padding-bottom: 0;
+    } 
+   .videoContainer{
+    margin-top: 40px;
+   }
+
+}
+/*Footer style below*/
+.footer{
+   background-color:#304146;
+   height:300px;
+   width:100%;
+   color:white;
+   font-size:30px;
+   align-content:center;
+}
+.apart{
+   width:400px;
+   height:200px;
+   font-size:20px;
+   margin-left:50px;
+}
+.set{
+   display:flex;
+   justify-content:center;
+   color:white;
+}
+.resource:link,#follow{
+   color:white;
+   text-decoration:underline;
+   font-size:20px;
+}
+#info{
+   height:20px;
+   width:20px;
+}
+.rights{
+   display:flex;
+   justify-content:center;
+   border-top:1px solid gray;
+   font-size:20px;
+   padding-top:20px;
+   color:#F5F5EB;
+}
